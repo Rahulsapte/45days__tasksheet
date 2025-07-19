@@ -15,6 +15,7 @@ console.log('File content:\n', content);
 
 // Rename the file
 fs.renameSync('day3/sample.txt', 'day3/new_sample.txt');
+fs.unlink
 
 console.log('File renamed successfully!');
 
